@@ -1,11 +1,14 @@
-import styles from '../styles/footer.module.css'
+import styles from '../styles/footer.css'
 
 function Footer() {
+
+  
+
 	return (
-		<div className={[styles.footer]}>
+		<div className="footer">
 			<div className="row pr-5 pl-5 mr-5 ml-5">
 				<div className="col row ">
-					<a className="navbar-brand" href="./">
+					<a className="navbar-brand" href="#" >
 						<img src="/images/NavigationBar/logo.png" width="195" height="104" />
 					</a>
 					<div className="col p-3">
