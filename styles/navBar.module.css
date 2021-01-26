@@ -1,0 +1,13 @@
+div.navbar {
+    background-color: black;
+}
+
+div.navbar a{
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+div.navbar a:hover{
+    color: lightgray;
+}
