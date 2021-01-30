@@ -8,7 +8,7 @@ function Footer() {
 		<div className="footer">
 			<div className="footer--leftSide">
 				<a className="" href="#" >
-					<img src="/images/NavigationBar/logo.png" width="195" height="104" />
+					<img src="/images/NavigationBar/logo.png" width="150" height="auto" />
 				</a>
 
 				<div className="footer--data">
