@@ -1,5 +1,5 @@
 div.navbar--container {
-    background-color: black;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     padding-left: 3em;
@@ -11,6 +11,9 @@ div.navbar--container {
     align-items: center;
     height: 90px;
     box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .navbar--icon {
