@@ -11,7 +11,7 @@ div.navbar--container {
     align-items: center;
     height: 90px;
     box-sizing: border-box;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
 }
