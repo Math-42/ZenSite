@@ -1,14 +1,11 @@
 .footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: black;
-    font-size: 14px;
+    font-size: 13px;
     color: white;
-    align-items: center;
-    font-weight: 300;
-    padding-left: 3em;
-    padding-right: 1.5em;
+    font-weight: 400;
+    padding: 1.5em 10em 1.5em 10em;
 }
 
 .footer--leftSide {
@@ -18,34 +15,53 @@
     align-items: center;
 }
 
+.footer--leftSide > a > img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+}
+ 
 .footer--data{
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 .socialIconContainer {
-    padding: 4px;
-    margin: 0.5em;
-    background-color: white;
-    width: 32px;
-    height: 32px;
-    border: none;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border-radius: 50%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 212px;
 }
 
-.socialIcon{
-    width: 24px;
+.socialIcon {
+    color: #fff;
+    font-size: 24px;
     height: 24px;
-    padding: 0px;
-    margin: 0px;
+}
+
+#zenithCopyright {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+#easterEgg {
+    font-weight: 400;
 }
 
 @media screen and (max-width: 960px) {
     .footer--data{text-align: center;}
-    .footer {  flex-direction: column; }
-    .footer--leftSide {  flex-direction: column; };
-    
+    .footer { 
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+    .footer--leftSide {  flex-direction: column; }
+    .footer--rightSide { margin-top: 1.5em;}
 }
